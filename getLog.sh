@@ -4,4 +4,4 @@ APP_NAME='vote-api'  #org-repo
 
 STEP='fetch-repository'
 
-taskrun
+oc get pipelinerun --sort-by='.metadata.creationTimestamp' | tail -1
