@@ -7,19 +7,19 @@ spec:
   - default: pipelines-vote-api
     name: APP_NAME
     type: string
-  - default: https://github.com/blues-man/pipelines-vote-api.git
+  - default: https://github.com/RichardW98/pipelines-vote-api.git
     name: GIT_REPO
     type: string
   - default: master
     name: GIT_REVISION
     type: string
-  - default: quay.io/bluesman/vote-api
+  - default: quay.io/ricwang/vote-api
     name: IMAGE_NAME
     type: string
   - default: .
     name: PATH_CONTEXT
     type: string
-  - default: 'https://github.com/blues-man/vote-app-gitops.git'
+  - default: 'https://github.com/RichardW98/vote-app-gitops.git'
     name: CONFIG_GIT_REPO
     type: string
   - default: develop
